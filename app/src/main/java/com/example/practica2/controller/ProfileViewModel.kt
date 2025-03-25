@@ -1,5 +1,6 @@
 package com.example.practica2.controller
 
+<<<<<<< HEAD
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -115,4 +116,7 @@ class ProfileViewModel : ViewModel() {
             })
         }
     }
+=======
+class ProfileViewModel {
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
 }

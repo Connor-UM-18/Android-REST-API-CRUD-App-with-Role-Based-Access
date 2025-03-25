@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
+<<<<<<< HEAD
     app:startDestination="@id/nav_profile">
 
     <fragment
@@ -17,3 +18,20 @@
         android:label="AdminFragment"
         android:layout="@layout/fragment_admin" />
 </navigation>
+=======
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.practica2.view.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/adminFragment"
+        android:name="com.example.practica2.view.AdminFragment"
+        android:label="AdminFragment"
+        tools:layout="@layout/fragment_admin" />
+
+</navigation>
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e

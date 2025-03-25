@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.practica2">
 
+<<<<<<< HEAD
     <!-- Permisos necesarios para la aplicación -->
+=======
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
@@ -20,17 +23,26 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
 
+<<<<<<< HEAD
         <!-- Activity principal para registro de usuario -->
+=======
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
         <activity
             android:name=".view.RegisterActivity"
             android:exported="false" />
 
+<<<<<<< HEAD
         <!-- Activity principal de la aplicación -->
+=======
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
         <activity
             android:name=".view.MainActivity"
             android:exported="false" />
 
+<<<<<<< HEAD
         <!-- Activity para el inicio de sesión -->
+=======
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
         <activity
             android:name=".view.LoginActivity"
             android:exported="true">
@@ -40,6 +52,7 @@
             </intent-filter>
         </activity>
 
+<<<<<<< HEAD
         <!-- Activity para editar perfil -->
         <activity
             android:name=".view.EditProfileActivity"
@@ -58,3 +71,8 @@
     </application>
 
 </manifest>
+=======
+    </application>
+
+</manifest>
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e

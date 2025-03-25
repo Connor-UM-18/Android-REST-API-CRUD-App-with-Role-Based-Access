@@ -67,8 +67,12 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx) // Reemplaza con la versión más reciente
 
     // Dependencia para encriptación Bcrypt
+<<<<<<< HEAD
     implementation(libs.bcrypt)
     implementation(libs.firebase.storage.ktx) // Reemplaza con la versión más reciente
+=======
+    implementation(libs.bcrypt) // Reemplaza con la versión más reciente
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
 
     // Pruebas
     testImplementation(libs.junit)
@@ -80,9 +84,13 @@ dependencies {
     implementation(libs.firebase.analytics)
     implementation(libs.firebase.auth) // Autenticación Firebase
     implementation(libs.firebase.firestore) // Firestore
+<<<<<<< HEAD
     // Dependencia de Picasso
     implementation (libs.picasso) // o la versión más reciente
     implementation (libs.material.v161)  // Esta es la dependencia para NavigationView
     implementation (libs.material.v1110) // o la versión más reciente
+=======
+
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
 
 }

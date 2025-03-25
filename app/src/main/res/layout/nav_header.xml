@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="16dp"
+<<<<<<< HEAD
     android:background="?android:attr/colorBackground">
 
     <ImageView
@@ -39,3 +45,21 @@
         android:text="Cerrar Sesión"
         android:layout_marginTop="16dp"/>
 </LinearLayout>
+=======
+    android:background="@android:color/darker_gray">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:background="@drawable/user"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_example_com"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e

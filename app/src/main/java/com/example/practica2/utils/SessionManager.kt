@@ -4,11 +4,15 @@ import android.content.Context
 import android.content.SharedPreferences
 
 class SessionManager(context: Context) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
     private val sharedPreferences: SharedPreferences =
         context.getSharedPreferences("UserSession", Context.MODE_PRIVATE)
     private val editor: SharedPreferences.Editor = sharedPreferences.edit()
 
+<<<<<<< HEAD
     // Función para guardar los datos del usuario
     fun saveUserData(email: String, token: String, nombre: String? = null, fotoPerfil: String? = null, rol: String? = null, password: String? = null) {
         editor.putString("USER_EMAIL", email)
@@ -21,15 +25,27 @@ class SessionManager(context: Context) {
     }
 
     // Función para obtener el correo del usuario
+=======
+    fun saveUserData(email: String, token: String) {
+        editor.putString("USER_EMAIL", email)
+        editor.putString("USER_TOKEN", token)
+        editor.apply()
+    }
+
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
     fun getUserEmail(): String? {
         return sharedPreferences.getString("USER_EMAIL", null)
     }
 
+<<<<<<< HEAD
     // Función para obtener el token del usuario
+=======
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
     fun getUserToken(): String? {
         return sharedPreferences.getString("USER_TOKEN", null)
     }
 
+<<<<<<< HEAD
     // Función para obtener el nombre del usuario
     fun getUserNombre(): String? {
         return sharedPreferences.getString("USER_NOMBRE", null)
@@ -50,10 +66,13 @@ class SessionManager(context: Context) {
     }
     
     // Función para limpiar la sesión
+=======
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
     fun clearSession() {
         editor.clear()
         editor.apply()
     }
+<<<<<<< HEAD
 
     // Función para cerrar la sesión del usuario
     fun logoutUser() {
@@ -61,3 +80,6 @@ class SessionManager(context: Context) {
         editor.apply() // Aplica los cambios
     }
 }
+=======
+}
+>>>>>>> 56d9615d32097a07c51d0e697c2172a2e8e7781e
