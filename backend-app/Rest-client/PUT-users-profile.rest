@@ -1,0 +1,11 @@
+PUT http://localhost:3000/users/profile
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJlNVBCNHVTdmZ2Y1FqbWFvRVVtQUdpZjNsN2YyIiwiaWF0IjoxNzQyODU0MzA2fQ.ymb2fCX6wNJeKfztvnQMgzywUug0D-rKj_pXbM1aFqQ
+
+{
+  "userId": "e5PB4uSvfvcQjmaoEUmAGif3l7f2",
+  "nombre": "Denise Morales",
+  "email": "connor.urbano.mendoza@gmail.com",
+  "password": "droEjIu2.123",
+  "fotoPerfil": ""
+}

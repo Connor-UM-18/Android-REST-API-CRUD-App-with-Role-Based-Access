@@ -1,0 +1,6 @@
+#GET http://localhost:3000/users/soyconnor@outlook.com
+
+#GET http://localhost:3000/users/connor.urbano.mendoza@gmail.com
+GET http://localhost:3000/users/ninichuexpress@gmail.com
+#$2b$10$ACR3Fp5tZ0fsW/3woVO9ruT8zSCQd3QraIBIKpfLaTDlGVZLQ5co6
+#$2b$10$ACR3Fp5tZ0fsW/3woVO9ruT8zSCQd3QraIBIKpfLaTDlGVZLQ5co6

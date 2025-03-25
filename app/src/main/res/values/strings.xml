@@ -15,4 +15,5 @@
     <string name="contrase_a">Contraseña</string>
     <string name="registrar">Registrar</string>
     <string name="ya_tienes_una_cuenta_iniciar_sesi_n">¿Ya tienes una cuenta? Iniciar sesión</string>
+    <string name="imagen_de_perfil_del_usuario">Imagen de perfil del usuario</string>
 </resources>

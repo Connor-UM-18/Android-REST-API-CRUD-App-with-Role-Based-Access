@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.practica2">
 
+    <!-- Permisos necesarios para la aplicación -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
@@ -19,14 +20,17 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
 
+        <!-- Activity principal para registro de usuario -->
         <activity
             android:name=".view.RegisterActivity"
             android:exported="false" />
 
+        <!-- Activity principal de la aplicación -->
         <activity
             android:name=".view.MainActivity"
             android:exported="false" />
 
+        <!-- Activity para el inicio de sesión -->
         <activity
             android:name=".view.LoginActivity"
             android:exported="true">
@@ -35,6 +39,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Activity para editar perfil -->
+        <activity
+            android:name=".view.EditProfileActivity"
+            android:exported="false"/>
+
+        <!-- Activity para mostrar el perfil del usuario -->
+        <activity
+            android:name=".view.ProfileActivity"
+            android:exported="false"/>
+
+        <!-- Activity para el panel de administrador (si corresponde) -->
+        <activity
+            android:name=".view.AdminActivity"
+            android:exported="false"/>
 
     </application>
 

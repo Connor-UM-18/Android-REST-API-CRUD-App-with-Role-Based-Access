@@ -1,0 +1,7 @@
+#GET http://localhost:3000/users/profile
+#Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJlNVBCNHVTdmZ2Y1FqbWFvRVVtQUdpZjNsN2YyIiwiaWF0IjoxNzQyODU0MzA2fQ.ymb2fCX6wNJeKfztvnQMgzywUug0D-rKj_pXbM1aFqQ
+
+
+
+GET http://localhost:3000/users/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJiejY3SDZuT1JPUHNDdmZrc2Q2SFlldWZROXIxIiwiaWF0IjoxNzQyODYxMTg5LCJleHAiOjE3NDI4NjgzODl9.tgbrGOKa5fKCfyXgPuBB9Ze57yKHqx_U52UDTqt6srY

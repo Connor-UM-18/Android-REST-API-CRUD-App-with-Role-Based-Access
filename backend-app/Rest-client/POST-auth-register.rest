@@ -1,0 +1,18 @@
+#POST http://localhost:3000/auth/register
+#Content-Type: application/json
+
+#{
+  #"email": "connor.jbszz@gmail.com",
+  #"password": "Perlita2",
+  #"nombre": "Connor Urbano"
+#}
+
+#prueba 2
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "email": "ninichuexpress@gmail.com",
+  "password": "droEjIu2.123",
+  "nombre": "Connor Mendoza"
+}
